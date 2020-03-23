@@ -69,7 +69,8 @@ header{
     max-width: 895px;
     margin: auto;
 }
-.container:after, header form:after, header nav ul:after, footer nav:after, section:after, .menu:after, article:after{
+.container:after, header form:after, header nav ul:after, footer nav:after,
+section:after, .menu:after, article:after, .five:after, .six:after{
     content: "";
     display: block;
     clear: both;
@@ -189,6 +190,7 @@ header .social{
     position: relative;
 }
 .section img{
+    display: block;
     width: 100%;
 }
 h1{
@@ -423,21 +425,16 @@ h4{
     background-color: #FA090A;
 }
 .list{
-    width: 130px;
-    float: left;
+    text-align: center;
     margin-bottom: 47px;
 }
 .list ul li{
-    float: left;
-    padding-right: 22px;
+    display: inline-block;
+    padding: 0 16px;
 }
 .list ul li a{
     font-size: 10px;
     color: black;
-    font-weight: bold;
-}
-.list ul li:last-child{
-    padding-right: 0;
 }
 
 footer{
